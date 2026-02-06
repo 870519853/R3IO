@@ -1,7 +1,10 @@
 # R3IO: Rotational RCS-Based Filtering 4D Radar-Inertial Odometry
 **R3IO** is a robust state estimation framework leveraging a rotating 4D millimeter-wave radar. By employing a custom rotating mechanism to achieve omnidirectional perception, combined with an RCS-based filtering module and a weighted tightly-coupled IEKF fusion scheme, our system achieves superior localization accuracy and robustness, particularly in feature-sparse and degenerated environment.
 
-![image](/docs/traj.png)
+<div align="center">
+  <img src="/docs/traj.png" alt="image" width="400" />
+</div>
+
 ## ✨ Key Features
 * **🔄 Omnidirectional Perception:** Utilizes a rotating platform with encoder-based motion compensation to overcome the limited FOV of standard 4D radars.
 * **🎯 Robust Noise Filtering:** Implements a polar voxel filter based on **RCS** and **Elevation Uncertainty** to suppress multipath noise and preserve stable landmarks.
