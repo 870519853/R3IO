@@ -2,7 +2,7 @@
 **R3IO** is a robust state estimation framework leveraging a rotating 4D millimeter-wave radar. By employing a custom rotating mechanism to achieve omnidirectional perception, combined with an RCS-based filtering module and a weighted tightly-coupled IEKF fusion scheme, our system achieves superior localization accuracy and robustness, particularly in feature-sparse and degenerated environment.
 
 <div align="center">
-  <img src="/docs/traj.png" alt="image" width="400" />
+  <img src="/docs/traj.png" alt="image" width="700" />
 </div>
 
 ## ✨ Key Features
